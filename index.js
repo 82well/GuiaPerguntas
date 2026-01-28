@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
 
-app.listen(3000,function (erro) {
+app.listen(3000, (erro) => {
   if (erro) {
     console.log("Ocorreu um erro ao iniciar o servidor.");
   } else {
